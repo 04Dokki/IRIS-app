@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\item_gallery_image.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\item_gallery_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\activity_setup.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\activity_setup.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\item_alert_inline.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\item_alert_inline.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\item_alert.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\item_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "com.iris.security.app-mergeDebugResources-60:/layout/fragment_gallery.xml",
+        "source": "com.iris.security.app-main-63:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\fragment_alerts.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\fragment_alerts.xml"
+    },
+    {
+        "merged": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-mergeDebugResources-60:\\layout\\activity_live_stream.xml",
+        "source": "C:\\Users\\andre\\.gradle\\daemon\\9.0-milestone-1\\com.iris.security.app-main-63:\\layout\\activity_live_stream.xml"
+    }
+]

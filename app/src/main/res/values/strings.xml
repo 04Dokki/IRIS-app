@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IRIS Security</string>
+    <string name="app_tagline">IoT-Powered Intruder Detection</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_gallery">Images</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="btn_live_stream">Live Stream</string>
+    <string name="btn_arm">ARM</string>
+    <string name="btn_disarm">DISARM</string>
+    <string name="btn_trigger_alarm">Trigger Alarm</string>
+    <string name="btn_silence">Silence</string>
+    <string name="label_today_alerts">Today\'s Alerts</string>
+    <string name="label_total_alerts">Total Alerts</string>
+    <string name="label_recent_activity">Recent Activity</string>
+    <string name="label_no_alerts">No alerts yet.\nIRIS is watching.</string>
+    <string name="label_device_offline">Device Offline</string>
+    <string name="label_device_offline_sub">Check Wi-Fi and MQTT settings</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Set Up IRIS</string>
+    <string name="setup_subtitle">Connect to your ESP32-S3 device</string>
+    <string name="hint_device_ip">ESP32-S3 IP Address (e.g. 192.168.1.100)</string>
+    <string name="hint_mqtt_broker">MQTT Broker IP / Domain</string>
+    <string name="hint_mqtt_port">MQTT Port (default: 1883)</string>
+    <string name="hint_mqtt_user">MQTT Username (optional)</string>
+    <string name="hint_mqtt_password">MQTT Password (optional)</string>
+    <string name="hint_device_id">Device ID (default: iris_01)</string>
+    <string name="btn_save_config">Save &amp; Connect</string>
+    <string name="btn_test_connection">Test Connection</string>
+
+    <!-- Alerts -->
+    <string name="alerts_title">Alert History</string>
+    <string name="btn_acknowledge_all">Mark All Read</string>
+    <string name="label_no_alert_history">No alerts recorded yet</string>
+
+    <!-- Gallery / Download -->
+    <string name="gallery_title">Captured Images</string>
+    <string name="btn_download_all">Download All to Gallery</string>
+    <string name="btn_download_image">Download</string>
+    <string name="btn_delete_image">Delete</string>
+    <string name="label_no_images">No captured images yet.\nImages appear here when IRIS detects an intruder.</string>
+    <string name="msg_saved_gallery">Saved to Pictures/IRIS Security</string>
+    <string name="msg_already_saved">Already saved to gallery</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="setting_alerts_enabled">Intruder Alerts</string>
+    <string name="setting_motion_alerts">Motion Alerts</string>
+    <string name="setting_sound">Alert Sound</string>
+    <string name="setting_vibration">Vibration</string>
+    <string name="btn_edit_config">Edit Device Config</string>
+    <string name="btn_reboot">Reboot Device</string>
+    <string name="btn_clear_alerts">Clear Alert History</string>
+    <string name="btn_reconnect">Reconnect MQTT</string>
+
+    <!-- Live Stream -->
+    <string name="stream_connecting">Connecting to stream…</string>
+    <string name="stream_live">● LIVE</string>
+    <string name="btn_capture_frame">Capture</string>
+</resources>

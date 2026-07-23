@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Outer eye shape -->
+    <path
+        android:pathData="M8,48 Q48,8 88,48 Q48,88 8,48 Z"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:fillColor="#00000000" />
+
+    <!-- Iris circle -->
+    <path
+        android:pathData="M48,48 m-18,0 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0"
+        android:fillColor="#00E5FF"
+        android:fillAlpha="0.15"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5" />
+
+    <!-- Pupil -->
+    <path
+        android:pathData="M48,48 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"
+        android:fillColor="#00E5FF" />
+
+    <!-- Pupil highlight -->
+    <path
+        android:pathData="M44,44 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.5" />
+
+    <!-- Scan line -->
+    <path
+        android:pathData="M24,48 L72,48"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.4" />
+
+</vector>

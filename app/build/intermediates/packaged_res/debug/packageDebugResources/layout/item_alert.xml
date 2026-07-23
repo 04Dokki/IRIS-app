@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.IRIS.Card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
+
+        <!-- Unread dot -->
+        <View
+            android:id="@+id/viewUnread"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="@drawable/bg_dot_accent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <!-- Type icon -->
+        <ImageView
+            android:id="@+id/ivTypeIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_intruder"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/viewUnread" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tvAlertTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:text="Unknown Person Detected"
+            android:textColor="@color/iris_text_primary"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintTop_toTopOf="@+id/ivTypeIcon"
+            app:layout_constraintStart_toEndOf="@+id/ivTypeIcon"
+            app:layout_constraintEnd_toStartOf="@+id/ivThumbnail" />
+
+        <!-- Time -->
+        <TextView
+            android:id="@+id/tvAlertTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:text="Jun 6, 2026 • 3:42 PM"
+            android:textColor="@color/iris_text_secondary"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/tvAlertTitle"
+            app:layout_constraintStart_toEndOf="@+id/ivTypeIcon"
+            app:layout_constraintEnd_toStartOf="@+id/ivThumbnail" />
+
+        <!-- Confidence -->
+        <TextView
+            android:id="@+id/tvConfidence"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:text="Confidence: 87%"
+            android:textColor="@color/iris_accent"
+            android:textSize="12sp"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/tvAlertTime"
+            app:layout_constraintStart_toEndOf="@+id/ivTypeIcon"
+            app:layout_constraintEnd_toStartOf="@+id/ivThumbnail" />
+
+        <!-- Download button -->
+        <ImageButton
+            android:id="@+id/btnDownloadImage"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="6dp"
+            android:src="@drawable/ic_download"
+            android:background="@drawable/bg_icon_btn_small"
+            android:tint="@color/iris_accent"
+            android:contentDescription="Download image"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="@+id/ivThumbnail"
+            app:layout_constraintEnd_toStartOf="@+id/ivThumbnail" />
+
+        <!-- Thumbnail -->
+        <ImageView
+            android:id="@+id/ivThumbnail"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_placeholder"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

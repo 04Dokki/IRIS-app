@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- IRIS Brand Colors -->
+    <color name="iris_primary">#0D1117</color>
+    <color name="iris_surface">#161B22</color>
+    <color name="iris_surface_elevated">#1C2128</color>
+    <color name="iris_accent">#00E5FF</color>
+    <color name="iris_accent_dim">#1A3A4A</color>
+    <color name="iris_online">#00C853</color>
+    <color name="iris_warning">#FFB300</color>
+    <color name="iris_danger">#EF3B2C</color>
+    <color name="iris_text_primary">#ECEFF1</color>
+    <color name="iris_text_secondary">#7C8B9A</color>
+    <color name="iris_divider">#21262D</color>
+    <color name="iris_card">#1C2128</color>
+    <color name="iris_ripple">#1A00E5FF</color>
+
+    <!-- System -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
